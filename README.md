@@ -68,9 +68,9 @@ To meet these requirements, the solution is broken down into the following compo
 1. **Mount Data Lake in Databricks**: Configure Databricks to access ADLS.
 2. **Transform Data**: Use Databricks notebooks to clean and aggregate the data, moving it from `bronze` to `silver` and then to `gold`.
 
-![ER_Diagram](https://github.com/user-attachments/assets/c6ea0240-db77-48fb-baf9-ca3c0fc08298)
-
 #### **Before and After Schema**
+
+![ER_Diagram](https://github.com/user-attachments/assets/c6ea0240-db77-48fb-baf9-ca3c0fc08298)
 
 ##### **Bronze Layer (Raw Data)**
 - **Description**: Contains raw earthquake data as ingested from the source. No transformations are applied.
